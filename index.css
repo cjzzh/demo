@@ -1,0 +1,593 @@
+body {
+    line-height: 1;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.header-top {
+	height: 101px;
+}
+
+.font {
+	font-size:40px;
+	font-weight:bold;
+	color:rgba(0,164,255,1);
+	padding-top: 33px;
+	padding-left: 9px;
+}
+
+.nav {
+	margin-top: 42px;
+}
+
+.nav li {
+	float: left;
+	text-align: center;
+	font-size:18px;
+	font-weight:400;
+	color:rgba(5,5,5,1);
+}
+
+li.first {
+	width: 54px;
+	margin:0 47px 0 79px;
+}
+
+li.second {
+	margin-right:47px;
+}
+
+.nav a {
+	color:rgba(5,5,5,1);
+}
+
+.nav li:hover {
+	border-bottom:2px solid rgba(0,164,255,1);
+	padding-bottom: 10px;
+}
+
+li.last {
+	width: 90px;
+}
+
+.header__last li {
+    float: left;
+}
+
+.form {
+	margin-top: 31px;
+	margin-left:178px ;
+}
+
+.form * {
+    float: left;
+}
+
+.form .search {
+    width: 321px;
+    height: 13px;
+    border: 1px solid rgba(0,164,255,1);;
+    padding:13px 19px 12px 19px;
+}
+
+.form .submit {
+    width: 50px;
+    height: 40px;
+    border: 1px solid rgba(0,164,255,1);
+    background: rgba(0,164,255,1) url(img/fa-search.png) no-repeat center center;
+    cursor: pointer;
+}
+
+:focus {
+    outline: none;
+}
+
+.two {
+    width: 87px;
+}
+
+a.right-a {
+	display: inline-block;
+	float: right;
+	font-size:14px;
+	font-weight:400;
+	color:rgba(102,102,102,1);
+	padding-top: 44px;
+}
+
+.banner {
+    height: 420px;
+    position: relative;
+}
+
+.banner li {
+    width: 100%;
+    height: 420px;
+    position: absolute;
+    top: 0;
+    left:0;
+}
+
+.banner1 {
+    background: url(img/banner1.png) no-repeat center center;
+}
+
+.banner2 {
+    background: url(img/banner2.png) no-repeat center center;
+}
+
+li.set {
+    width: 190px;
+    position: relative;
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left:10%;
+}
+
+.dark {
+    width: 170px;
+    height:365px ;
+    position: absolute;
+    top:27px;
+    left:20px;
+}
+
+.dark ul {
+    width: 170px;
+    height:365px;
+}
+
+.dark li { 
+    width: 170px;
+    height: 40px;
+    font-size:14px;
+    line-height: 14px;
+    color: #fff;
+    position: relative;
+    margin-bottom:3px;
+}
+
+.dark .sub {
+    display: inline-block;
+    padding-left:20px;
+    color: #fff;
+}
+
+.dark .top {
+    padding-top: 0;
+}
+
+.dark .bottom {
+    padding-top: 7px;
+}
+
+.dark li:hover {
+    color: #00B4FF;
+}
+
+.dark a:hover {
+    color: #00B4FF;
+}
+
+.content {
+    height: 60px;
+    margin: 8px auto 0;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 3px 0px rgba(118,118,118,0.2);
+}
+
+.content li {
+    float: left;
+}
+
+.nav1 .fine a{
+    font-weight: bold;
+    color: #00A4FF;
+}
+
+.content li a{
+    color: black;
+}
+
+.nav1 {
+    width: 1105px;
+    height: 18px;
+    margin-top: 21px;
+    margin-left: 34px;
+}
+
+.nav1 .fine {
+    padding-right: 34px;
+    border-right:1px solid rgba(191,191,191,1); 
+}
+
+.nav1 .JQuery {
+    padding: 0 35px 0 30px;
+    border-right:1px solid rgba(191,191,191,1);
+}
+
+.nav1 .SparK {
+    padding: 0 45px 0 27px;
+    border-right:1px solid rgba(191,191,191,1);
+}
+
+.nav1 .MySQL {
+    padding: 0 46px 0 20px;
+    border-right:1px solid rgba(191,191,191,1);
+}
+
+.nav1 .JavaWeb {
+    padding: 0 49px 0 15px;
+    border-right:1px solid rgba(191,191,191,1);
+}
+
+.nav1 .JavaWeb1 {
+    padding:0 245px 0 14px;
+}
+
+.intere .impro {
+    font-size:14px;
+    color:#00A4FF;
+} 
+
+.recommend {
+    height: 77px;
+}
+
+.p-fine {
+    font-size:20px;   
+    font-weight:400;
+    color:rgba(73,73,73,1);
+    padding-top: 37px;
+}
+
+.all {
+    padding-top: 45px;
+    padding-right: 31px;
+    font-size: 12px;
+    font-weight:400;
+    color:rgba(165,165,165,1);
+}
+
+.pic-top {
+    height: 555px;
+}
+
+.pic-t li {
+    width:228px;
+    height: 270px;
+    float: left;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+}
+
+.set-right {
+    margin:0 15px 15px 0;
+}
+
+.no-bottom {
+    margin:0 15px 0 0;
+}
+
+.none {
+    margin-bottom: 15px;
+}
+
+.none-bottom {
+    margin:0;
+}
+
+.detail {
+    width:185px;
+    height:34px;
+    font-size:14px;
+    font-weight:400;
+    color:rgba(5,5,5,1);
+    line-height:20px;
+    margin:24px 20px 18px 23px  ;
+}
+
+.num {
+    width:119px;
+    height:13px;
+    font-size:12px;
+    font-weight:400;
+    color:#999;
+    margin: 0 86px 26px 23px;
+}
+
+span.color {
+    color: #FF7C2D;
+}
+
+.engineer {
+    height: 77px;
+}
+
+.p-eng {
+    font-size:20px;   
+    font-weight:400;
+    color:rgba(73,73,73,1);
+    padding-top: 37px;
+    padding-left: 2px;
+}
+
+.engineer ul {
+    margin-top: 41px;
+    margin-left: 291px;
+}
+
+.engineer li {
+    float: left;
+}
+
+.engineer .blue a {
+    color: #00A4FF;
+}
+
+.engineer li a {
+    font-size:16px;
+    color: #868686;
+}
+
+.engineer .pad-70 {
+    padding-right: 70px;
+}
+
+.all1 {
+    padding-top: 44px;
+    padding-right: 29px;
+    font-size: 12px;
+    font-weight:400;
+    color:rgba(165,165,165,1);
+}
+
+.right-set {
+    margin-right: 15px;
+}
+
+.pic-m li {
+    width:228px;
+    height: 270px;
+    float: left;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+}
+
+.right-set .inf {
+    font-size:14px;
+    font-weight:400;
+    color:rgba(5,5,5,1);
+    line-height:20px;
+}
+
+.al {
+    margin: 24px 30px 38px 23px;
+}
+
+.UP {
+    margin:25px 85px 37px 24px;
+}
+
+.Co {
+    margin: 24px 20px 18px 23px;
+}
+
+.Kam {
+    margin: 24px 50px 37px 24px;
+}
+
+.APP {
+    font-size:14px;
+    font-weight:400;
+    color:rgba(5,5,5,1);
+    line-height:20px;
+    margin:24px 20px 18px 22px ;
+}
+
+.rec {
+    height: 87px;
+}
+
+.rec p {
+    font-size:20px;
+    font-weight:400;
+    color:rgba(73,73,73,1);
+    padding-top: 35px;
+}
+
+.prof {
+    height: 320px;
+}
+
+.prof li {
+    float: left;
+}
+
+.graduate {
+    width: 471px;
+}
+
+.people {
+    width: 228px;
+}
+
+.has {
+    padding-right: 15px;
+    position: relative;
+}
+
+.posi {
+    position: relative;
+}
+
+.p-graduate {
+    font-size:27.2px;
+    color:#fff;
+    position: absolute;
+    top: 99px;
+    left: 25px;
+}
+
+ .graduate .p-graduate span {
+    font-size:30px;
+    font-weight:bold;
+    color:rgba(249,225,3,1);
+    line-height:36px;
+ }
+
+.p-look {
+    width: 85px;
+    height:23px;
+    border: 1px solid #F9E103;
+    position: absolute;
+    top: 173px;
+    left: 28px;
+}
+
+ a.look {
+    display:inline-block;
+    width:53px;
+    height:14px;
+    font-size: 13.24px;
+    color:#F9E103;
+    margin-bottom: 6px;
+    margin-left: 17px;
+ }
+
+.fill {
+    width:228px;
+    height:122px;
+    color: #fff;
+    background:rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+ }
+
+ .fill span {
+    font-size: 18px;
+ }
+
+.pp1 {
+    margin-top: 21px;
+    margin-left: 29px;
+}
+ 
+.pp1 .size {
+    font-size: 14px;
+}
+.ppp2 {
+    width: 175px;
+    font-size:12px;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    line-height:20px;
+    margin-top: 12px;
+    margin-left: 25px;
+}
+
+.blan_k {
+    height: 73px;
+}
+
+.footer {
+    height: 417px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+}
+
+.footer-con {
+    height: 417px;
+}
+
+.left-div {
+    width: 400px;
+    margin-left: 0;
+    box-shadow:none;
+}
+
+.xueli {
+    width: 200px;
+    height: 36px;
+    font-size:36px;
+    font-weight:bold;
+    color:rgba(0,164,255,1);
+    line-height:36px;
+    margin-top: 124px;
+    margin-left:21px;
+}
+
+.imply {
+    width:380px;
+    height:12px;
+    font-size:12px;
+    font-family:SimSun;
+    font-weight:400;
+    margin-top: 35px;
+    margin-left: 23px;
+    color:rgba(102,102,102,1);
+    line-height:18px;
+}
+
+.download {
+    width:118px;
+    height:36px;
+    margin-top: 33px;
+    margin-left: 22px;
+    border: 1px solid rgba(0,164,255,1);
+}
+
+.download a {
+    display: inline-block;
+    width: 63px;
+    height: 15px;
+    margin-top: 11px;
+    margin-left: 27px;
+    font-size:16px;
+    font-weight:400;
+    color:rgba(0,164,255,1);
+    line-height:18px;
+}
+
+table {
+    margin-top: 130px;
+    margin-right: 25px;
+}
+
+table a {
+    font-size: 12px;
+    color:rgba(51,51,51,1);
+}
+
+.head {
+    font-size:16px;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:21px;
+}
+
+table .head1 {
+    width: 225px;
+}
+
+table .head2 {
+    width: 216px;
+}
